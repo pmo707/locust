@@ -1,0 +1,6 @@
+https://www.python.org/downloads/
+
+https://docs.locust.io/en/stable/
+
+python -m pip install locustio
+

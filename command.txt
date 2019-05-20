@@ -1,0 +1,12 @@
+py.cons
+1)
+
+import requests as r
+
+base_url = 'http://localhost:3000'
+
+r.get(base_url + '/')
+
+response = r.get(base_url + '/posts/1')
+
+response.json()
